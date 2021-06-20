@@ -1,0 +1,23 @@
+{
+  "name": "npm_demo_twit",
+  "version": "1.0.0",
+  "description": "I am learning how make use of the npm function within node by creating a twitter bot.",
+  "main": "twit_bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Learning_npm"
+  },
+  "keywords": [
+    "Twitter_bot",
+    "learning_npm"
+  ],
+  "author": "Shawen Harker",
+  "license": "ISC",
+  "dependencies": {
+    "twit": "^2.2.11"
+  }
+}
